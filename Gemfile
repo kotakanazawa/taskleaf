@@ -69,3 +69,5 @@ gem "rails_autolink"
 
 gem "kaminari"
 gem "ransack"
+gem "sidekiq"
+
