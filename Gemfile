@@ -47,6 +47,9 @@ group :development do
   gem "rubocop", require: false
   gem "rubocop-performance"
   gem "rubocop-rails"
+  gem "capistrano"
+  gem 'ed25519'
+  gem 'bcrypt_pbkdf'
 end
 
 group :test do
@@ -70,4 +73,3 @@ gem "rails_autolink"
 gem "kaminari"
 gem "ransack"
 gem "sidekiq"
-
